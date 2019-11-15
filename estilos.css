@@ -43,6 +43,7 @@ p{
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
   min-height: 100px;
+  position: inherit;
 
 }
 
@@ -57,12 +58,18 @@ p{
 .logo-brand {
   min-width: 40px;
   max-width:  60px;
+
 }
 .navbar-toggler {
-   font-size: 40px;
+  /*padding-top: 20px;
+  padding-left: 350px;*/
+  font-size: 40px;
 }
 .navbar-toggler:focus{
   outline: none;
+}
+.ion-md-menu:before{
+ margin-left: 500%;
 }
 #hero {
   background-image: url('imagenes/hero.png');
@@ -81,5 +88,20 @@ p{
   margin: 0 auto 60px auto;
   text-align: center;
 
-
 }
+
+
+
+@media only screen and (max-width: 600px) {...}
+
+
+@media only screen and (min-width: 600px) {...}
+
+
+@media only screen and (min-width: 768px) {...}
+
+
+@media only screen and (min-width: 992px) {...}
+
+
+@media only screen and (min-width: 1200px) {...}
