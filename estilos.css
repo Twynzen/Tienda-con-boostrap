@@ -112,6 +112,9 @@ section {
   -moz-transition: all 0.8s;
   -webkit-transition: all 0.8;
   transition:  all 0.8s;
+  max-width: 500px;
+  max-height: 500px;
+  padding: 40px;
 }
 .portfolio-container:hover img{
   -moz-transform: scale(1.2);
