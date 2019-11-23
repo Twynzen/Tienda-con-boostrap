@@ -80,11 +80,9 @@ section {
 .navbar-toggler:focus{
   outline: none;
 }
-.ion-md-menu:before{
- margin-left: 500%;
-}
+
 #hero {
-  background-image: url('imagenes/hero.png');
+  background-image: url('imagenes/tienda01.jpg');
   background-size: cover;
   padding-top: 90px;
   min-height: 700px;
